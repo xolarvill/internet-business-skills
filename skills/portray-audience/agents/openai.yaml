@@ -1,0 +1,7 @@
+interface:
+  display_name: "Portray Audience"
+  short_description: "Public audience and persona analysis"
+  default_prompt: "Use $portray-audience to analyze a product or brand and portray the target audience, buying motivations, objections, and commercial audience signals from public evidence."
+
+policy:
+  allow_implicit_invocation: true

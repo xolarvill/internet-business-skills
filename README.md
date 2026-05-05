@@ -51,6 +51,23 @@ Use:
 $analyze-competitor Compare our dog leash offer against Ruffwear, Max and Neo, and TUG. Focus on price ladder, product claims, review proof, and likely conversion differences.
 ```
 
+### `portray-audience`
+
+Portray the likely target audience for a product or brand using public evidence from official pages, reviews, communities, and social surfaces.
+
+Best for:
+
+- audience-cluster analysis
+- buyer motivation and objection mapping
+- target-customer portrayal grounded in public signals
+- identifying who the brand seems to attract, miss, or repel
+
+Use:
+
+```text
+$portray-audience Analyze this dog leash brand and portray the likely audience clusters, buying motivations, objections, and which audience seems strongest or weakest.
+```
+
 ## Package Shape
 
 Each skill stays self-contained under `skills/`:
@@ -59,6 +76,7 @@ Each skill stays self-contained under `skills/`:
 skills/
   find-bad-review/
   analyze-competitor/
+  portray-audience/
 platforms/
 examples/
 ```
@@ -94,9 +112,10 @@ This package is optimized for human-triggered public research, not:
 
 - [Representative bad review report](examples/dog-leash-report.md)
 - [Representative competitor report](examples/dog-leash-competitor-report.md)
+- [Representative audience portrait report](examples/dog-leash-audience-report.md)
 
 ## Portability
 
 Use `platforms/codex.md` and `platforms/claude-code.md` as lightweight notes for packaging the same skill workflow across agent systems.
 
-Note: the concrete skill names remain `find-bad-review` and `analyze-competitor`; `internet-business-skills` is the package or repository name.
+Note: the concrete skill names remain `find-bad-review`, `analyze-competitor`, and `portray-audience`; `internet-business-skills` is the package or repository name.
