@@ -1,6 +1,6 @@
 ---
 name: find-bad-review
-description: Collect and summarize representative public negative reviews for a product across channels such as Amazon, Chewy, Walmart, Reddit, TikTok, and brand or retailer sites. Use when Codex needs to research product complaints, voice-of-customer themes, review-based weaknesses, channel-specific objections, or create a structured bad-review report with evidence, confidence notes, and source links.
+description: Collect and summarize representative public negative reviews for a product across channels such as Amazon, Walmart, Reddit, TikTok, forums, and brand or retailer sites. Use when Codex needs to research product complaints, voice-of-customer themes, review-based weaknesses, channel-specific objections, or create a structured bad-review report with evidence, confidence notes, and source links.
 ---
 
 # Find Bad Review
@@ -49,7 +49,7 @@ Default target channels:
 - Reddit
 - TikTok
 - X (formerly Twitter)
-- key incumbents in the industry — e.g., Chewy in pet care.
+- category-specific retailer leaders when relevant
 - specialty forums when relevant (e.g. dog training forums for a dog leash)
 - brand or retailer review pages
 
@@ -147,7 +147,7 @@ Use the report format in [references/report-format.md](references/report-format.
 When useful, generate a starter report skeleton with:
 
 ```bash
-python scripts/render_report_stub.py --product "Dog leash" --channels amazon chewy walmart reddit tiktok dtc
+python scripts/render_report_stub.py --product "Dog leash" --channels amazon walmart reddit tiktok retailer forum
 ```
 
 ## Output Standard

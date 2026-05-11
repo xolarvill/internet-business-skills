@@ -9,11 +9,12 @@ Use this file when deciding how to collect evidence from different channels and 
 - Treat one-star and two-star reviews as strong complaint candidates, but do not ignore clear complaints in higher-rated reviews.
 - If the page is inaccessible, fall back to search results that surface public snippets or third-party summaries, and mark the evidence as weaker.
 
-## Chewy
+## Specialty Retailers
 
-- Chewy product review pages are often easier to inspect than Amazon and are useful for pet products.
+- Vertical-specific retailers can be strong sources when they expose cleaner review text than large marketplaces.
 - Look for repeated functional failures, sizing complaints, and durability issues.
 - Keep track of whether the complaint is about the product or about the buyer misunderstanding the intended use.
+- Treat the retailer as category-specific context, not as a default channel for every industry.
 
 ## Walmart
 

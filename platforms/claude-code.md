@@ -7,7 +7,7 @@ Reuse the same workflow and report structure from the core skill. Port the trigg
 Use this as the starting prompt body for a Claude Code version of the skill:
 
 ```md
-Collect and summarize representative public negative reviews for a product across channels such as Amazon, Chewy, Walmart, Reddit, TikTok, and brand or retailer sites. Use this workflow when researching product complaints, voice-of-customer themes, review-based weaknesses, channel-specific objections, or when creating a structured bad-review report with evidence, confidence notes, and source links.
+Collect and summarize representative public negative reviews for a product across channels such as Amazon, Walmart, Reddit, TikTok, forums, and brand or retailer sites. Use this workflow when researching product complaints, voice-of-customer themes, review-based weaknesses, channel-specific objections, or when creating a structured bad-review report with evidence, confidence notes, and source links.
 
 Workflow:
 1. Confirm the product target.

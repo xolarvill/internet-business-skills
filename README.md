@@ -34,7 +34,7 @@ npx skills add xolarvill/internet-business-skills -a codex -g -y
 
 ### `find-bad-review`
 
-Research representative public negative reviews for a product across channels such as Amazon, Chewy, Walmart, Reddit, TikTok, and brand or retailer sites.
+Research representative public negative reviews for a product across channels such as Amazon, Walmart, Reddit, TikTok, forums, and brand or retailer sites.
 
 Best for:
 
@@ -45,7 +45,7 @@ Best for:
 Use:
 
 ```text
-$find-bad-review Analyze the public bad reviews for a dog leash across Amazon, Chewy, Walmart, Reddit, TikTok, and brand sites.
+$find-bad-review Analyze the public bad reviews for a dog leash across Amazon, Walmart, Reddit, TikTok, forums, and brand sites.
 ```
 
 ### `analyze-competitor`

@@ -66,7 +66,7 @@ def main() -> None:
     parser.add_argument(
         "--channels",
         nargs="+",
-        default=["amazon", "chewy", "walmart", "reddit", "tiktok", "dtc"],
+        default=["amazon", "walmart", "reddit", "tiktok", "retailer", "forum"],
         help="Channels to include in the coverage summary",
     )
     args = parser.parse_args()

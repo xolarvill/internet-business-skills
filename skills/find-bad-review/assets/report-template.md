@@ -12,11 +12,11 @@
 | Channel | Source count | Evidence quality | Notes |
 | --- | --- | --- | --- |
 | Amazon |  |  |  |
-| Chewy |  |  |  |
 | Walmart |  |  |  |
 | Reddit |  |  |  |
 | TikTok |  |  |  |
 | DTC / retailer sites |  |  |  |
+| Forums / communities |  |  |  |
 
 ## Category-Level Readout
 
