@@ -22,6 +22,24 @@ The goal is not to give a vague opinion. The goal is to turn an idea into testab
 
 Do not skip claim extraction. Do not jump from raw search results straight to a yes or no answer.
 
+## Clarification Gate
+
+If the request is too broad or ambiguous, do not start live research immediately. Ask one clarification question at a time, and prefer 2-3 concrete options plus room for the user to add extra context.
+
+Ask only when the missing detail materially affects evidence collection or the final commercial judgment. Good reasons to clarify include a vague idea statement, missing target customer, unknown geography, unclear channel, no price or value posture, or uncertainty about whether the decision is launch, positioning, channel selection, or product selection.
+
+Do not ask a fixed number of questions. If a safe default is available, state the assumption and proceed. If the ambiguity makes the idea impossible to turn into testable claims, clarify before searching.
+
+Example clarification:
+
+Question: What decision should this idea verification support?
+
+- A. Whether to pursue this product or market (recommended): best for a practical go/no-go readout.
+- B. Which channel or audience to prioritize: best when the idea is plausible but go-to-market is uncertain.
+- C. What assumptions are riskiest: best when the user wants a claim-led validation agenda.
+
+Extra context: The user can provide target market, buyer, channel, price posture, competitors, or any assumption they most want tested.
+
 ## Step 1: Confirm The Idea And Context
 
 Restate the idea in a way that can actually be tested. Capture:

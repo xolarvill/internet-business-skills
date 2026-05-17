@@ -28,6 +28,24 @@ The goal is not to produce a generic "market research" summary. The goal is to a
 
 Do not promise exhaustive market coverage unless the user explicitly asks for it and the evidence supports that claim. The default is a useful, evidence-backed competitor report.
 
+## Clarification Gate
+
+If the request is too broad or ambiguous, do not start live research immediately. Ask one clarification question at a time, and prefer 2-3 concrete options plus room for the user to add extra context.
+
+Ask only when the missing detail materially affects evidence collection or the final commercial judgment. Good reasons to clarify include missing focal target, no competitor set, unclear geography or channel, or uncertainty about whether the user wants positioning, pricing, offer structure, product-page conversion, or proof gaps.
+
+Do not ask a fixed number of questions. If a safe default is available, state the assumption and proceed. If the ambiguity changes the comparison outcome, clarify before searching.
+
+Example clarification:
+
+Question: What competitor set should anchor the comparison?
+
+- A. Direct substitutes in the same channel (recommended): best for conversion and positioning decisions.
+- B. Premium reference brands: best for understanding higher-end claims and proof expectations.
+- C. Value-priced challengers: best for price pressure and offer-structure analysis.
+
+Extra context: The user can provide competitor names, URLs, target country, sales channel, or the decision this comparison should support.
+
 ## Step 1: Confirm The Focal Target
 
 Start by pinning down what exactly is being compared. Use:

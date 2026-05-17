@@ -131,6 +131,10 @@ This repository is intentionally a skill pack, not a shared runtime. A small amo
 - Keep claims proportional to publicly visible evidence.
 - Distinguish evidence collection from business judgment.
 
+## Clarification Policy
+
+When a request is too broad or underspecified, these skills should clarify only the missing details that change the research path. This is not a full planning mode. Ask one practical question at a time, usually with small options plus room for extra context, then proceed once the target, market, channel, or decision context is clear enough to research honestly.
+
 ## Current Scope
 
 This package is optimized for human-triggered public research, not:

@@ -22,6 +22,24 @@ The goal is not to invent a glossy persona card. The goal is to turn public evid
 
 Do not present speculative demographic fiction as fact. This skill should stay evidence-backed and honest about where audience portrayal is strong versus thin.
 
+## Clarification Gate
+
+If the request is too broad or ambiguous, do not start live research immediately. Ask one clarification question at a time, and prefer 2-3 concrete options plus room for the user to add extra context.
+
+Ask only when the missing detail materially affects evidence collection or the final commercial judgment. Good reasons to clarify include missing focal product or brand, unclear market, no channel context, or uncertainty about whether the user wants intended audience, observed audience response, conversion blockers, or weak-fit segments.
+
+Do not ask a fixed number of questions. If a safe default is available, state the assumption and proceed. If the ambiguity changes the audience interpretation, clarify before searching.
+
+Example clarification:
+
+Question: Which audience angle should this analysis prioritize?
+
+- A. Likely buyer clusters and motivations (recommended): best for positioning and merchandising work.
+- B. Conversion blockers and objections: best for page, ad, or offer optimization.
+- C. Audience mismatch or weak-fit segments: best when the brand may be speaking to the wrong buyers.
+
+Extra context: The user can provide a product URL, brand, target country, channel, or the decision this audience readout should support.
+
 ## Step 1: Confirm The Focal Target
 
 Start by pinning down what exactly is being analyzed. Use:

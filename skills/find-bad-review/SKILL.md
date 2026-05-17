@@ -23,6 +23,24 @@ The goal is not just to list complaints. The goal is to turn complaints into hig
 
 Do not claim exhaustive coverage unless the user explicitly asks for it and you actually achieved it. The default goal is a useful research report, not a full crawl.
 
+## Clarification Gate
+
+If the request is too broad or ambiguous, do not start live research immediately. Ask one clarification question at a time, and prefer 2-3 concrete options plus room for the user to add extra context.
+
+Ask only when the missing detail materially affects evidence collection or the final commercial judgment. Good reasons to clarify include missing product identity, broad category scope, unknown target market, unclear channels, or uncertainty about whether the user wants product complaints, seller friction, or category-level risk.
+
+Do not ask a fixed number of questions. If a safe default is available, state the assumption and proceed. If the ambiguity changes the research outcome, clarify before searching.
+
+Example clarification:
+
+Question: What should the complaint research focus on?
+
+- A. Product failure modes and negative reviews (recommended): best for product or merchandising decisions.
+- B. Seller, shipping, and packaging friction: best when operational friction matters too.
+- C. Category-level weak subtypes: best when choosing what product direction to avoid or pursue.
+
+Extra context: The user can provide a product URL, brand, target country, marketplace, or specific decision they are trying to make.
+
 ## Step 1: Confirm The Product Target
 
 Start by pinning down the product as tightly as the user context allows. Use:
