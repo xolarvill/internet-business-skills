@@ -22,9 +22,8 @@
         "brandColor": "#111827"
       },
       "source": {
-        "source": "url",
-        "url": "https://github.com/xolarvill/internet-business-skills.git",
-        "ref": "main"
+        "source": "local",
+        "path": "."
       },
       "policy": {
         "installation": "AVAILABLE",
