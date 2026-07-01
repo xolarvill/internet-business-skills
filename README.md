@@ -10,7 +10,7 @@ This repository is a pack of commercial analysis skills designed for Codex and C
 
 ### Add as a plugin by marketplace
 
-This repository is also a Codex plugin. Import it into Codex:
+Import it into Codex:
 
 ```bash
 codex plugin marketplace add xolarvill/internet-business-skills --ref main
@@ -18,6 +18,15 @@ codex plugin add internet-business-skills@internet-business-skills
 ```
 
 Start a new Codex thread after installing so the plugin skills are loaded.
+
+Import it into Claude Code:
+
+```bash
+claude plugin marketplace add xolarvill/internet-business-skills
+claude plugin install internet-business-skills@internet-business-skills
+```
+
+Start a new Claude Code session after installing so the plugin skills are loaded. Skills will be namespaced under the plugin name (e.g., `/internet-business-skills:find-bad-review`).
 
 ### Add as skills by NPX
 
@@ -50,10 +59,10 @@ npx skills add xolarvill/internet-business-skills -a codex -g -y
 The plugin manifest and `npx skills` installer do not conflict: both consume the
 same skill files without requiring duplicated copies.
 
-Codex plugin updates use the Codex plugin install/update path, not
-`npx skills update`. For local plugin development, update this repository,
-reinstall the plugin in Codex, then start a new thread so Codex loads the new
-plugin metadata and skill contents.
+Codex and Claude Code plugin updates use their respective plugin update
+paths, not `npx skills update`. For local plugin development, update this
+repository, reinstall the plugin, then start a new session so the platform
+loads the new plugin metadata and skill contents.
 
 ## Skills
 

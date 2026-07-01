@@ -1,0 +1,20 @@
+{
+  "name": "internet-business-skills",
+  "version": "0.1.0",
+  "description": "Evidence-based research workflows for internet business decisions.",
+  "author": {
+    "name": "xolarvill",
+    "url": "https://github.com/xolarvill"
+  },
+  "homepage": "https://github.com/xolarvill/internet-business-skills",
+  "repository": "https://github.com/xolarvill/internet-business-skills",
+  "license": "MIT",
+  "keywords": [
+    "business-research",
+    "market-analysis",
+    "competitor-analysis",
+    "customer-research",
+    "claude-code-skills"
+  ],
+  "skills": "./skills/"
+}

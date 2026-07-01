@@ -1,0 +1,32 @@
+{
+  "name": "internet-business-skills",
+  "owner": {
+    "name": "xolarvill"
+  },
+  "description": "Public-evidence research workflows for internet business decisions.",
+  "plugins": [
+    {
+      "name": "internet-business-skills",
+      "description": "Mine bad reviews, compare competitors, portray likely audiences, and verify commercial ideas with public evidence.",
+      "version": "0.1.0",
+      "author": {
+        "name": "xolarvill",
+        "url": "https://github.com/xolarvill"
+      },
+      "homepage": "https://github.com/xolarvill/internet-business-skills",
+      "repository": "https://github.com/xolarvill/internet-business-skills",
+      "license": "MIT",
+      "keywords": [
+        "business-research",
+        "market-analysis",
+        "competitor-analysis",
+        "customer-research"
+      ],
+      "category": "Productivity",
+      "source": {
+        "source": "github",
+        "repo": "xolarvill/internet-business-skills"
+      }
+    }
+  ]
+}
