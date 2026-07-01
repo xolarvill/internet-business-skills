@@ -1,0 +1,38 @@
+{
+  "name": "internet-business-skills",
+  "version": "0.1.0",
+  "description": "Commercial analysis skills for narrow, evidence-based internet business research.",
+  "author": {
+    "name": "xolarvill",
+    "url": "https://github.com/xolarvill"
+  },
+  "homepage": "https://github.com/xolarvill/internet-business-skills",
+  "repository": "https://github.com/xolarvill/internet-business-skills",
+  "license": "MIT",
+  "keywords": [
+    "business-research",
+    "market-analysis",
+    "competitor-analysis",
+    "customer-research",
+    "codex-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Internet Business Skills",
+    "shortDescription": "Evidence-based commercial research skills for Codex.",
+    "longDescription": "A compact skill pack for bad review mining, competitor analysis, audience portrayal, and commercial idea verification.",
+    "developerName": "xolarvill",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/xolarvill/internet-business-skills",
+    "defaultPrompt": [
+      "Verify this ecommerce idea with public evidence.",
+      "Analyze competitor positioning for this product.",
+      "Find representative bad reviews for this product."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

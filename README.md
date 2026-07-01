@@ -8,6 +8,14 @@ This repository is a pack of commercial analysis skills designed for Codex and C
 
 ## Installation
 
+### Codex plugin
+
+This repository is also a Codex plugin. The plugin manifest lives at
+`.codex-plugin/plugin.json` and points to the same `skills/` directory used by
+the `npx skills` workflow.
+
+### Skills CLI
+
 Install to Codex:
 
 ```bash
@@ -33,6 +41,8 @@ npx skills add xolarvill/internet-business-skills -a codex -g -y
 ```
 
 `skills update` refreshes skills you already have. Re-running `skills add` picks up new skills that weren't in the pack when you first installed.
+
+The plugin manifest and `npx skills` installer do not conflict: both consume the same skill files without requiring duplicated copies.
 
 ## Skills
 
