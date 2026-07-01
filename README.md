@@ -8,13 +8,22 @@ This repository is a pack of commercial analysis skills designed for Codex and C
 
 ## Installation
 
-### Codex plugin
+### Add as a Codex plugin
 
-This repository is also a Codex plugin. The plugin manifest lives at
-`.codex-plugin/plugin.json` and points to the same `skills/` directory used by
-the `npx skills` workflow.
+This repository is also a Codex plugin. Import it into Codex:
 
-### Skills CLI
+```bash
+codex plugin marketplace add xolarvill/internet-business-skills --ref main
+codex plugin add internet-business-skills@internet-business-skills
+```
+
+Start a new Codex thread after installing so the plugin skills are loaded.
+
+The plugin does not duplicate the skills. It packages the existing
+`skills/find-bad-review`, `skills/analyze-competitor`, `skills/portray-audience`,
+and `skills/verify-idea` directories as one Codex plugin.
+
+### Add as skills by NPX
 
 Install to Codex:
 
@@ -42,7 +51,13 @@ npx skills add xolarvill/internet-business-skills -a codex -g -y
 
 `skills update` refreshes skills you already have. Re-running `skills add` picks up new skills that weren't in the pack when you first installed.
 
-The plugin manifest and `npx skills` installer do not conflict: both consume the same skill files without requiring duplicated copies.
+The plugin manifest and `npx skills` installer do not conflict: both consume the
+same skill files without requiring duplicated copies.
+
+Codex plugin updates use the Codex plugin install/update path, not
+`npx skills update`. For local plugin development, update this repository,
+reinstall the plugin in Codex, then start a new thread so Codex loads the new
+plugin metadata and skill contents.
 
 ## Skills
 
