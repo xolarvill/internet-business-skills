@@ -1,11 +1,26 @@
 {
   "name": "internet-business-skills",
   "interface": {
-    "displayName": "Internet Business Skills"
+    "displayName": "Internet Business Research"
   },
   "plugins": [
     {
       "name": "internet-business-skills",
+      "interface": {
+        "displayName": "Internet Business Research",
+        "shortDescription": "Public-evidence research workflows for internet business decisions.",
+        "longDescription": "Mine bad reviews, compare competitors, portray likely audiences, and verify commercial ideas with public evidence.",
+        "developerName": "xolarvill",
+        "category": "Productivity",
+        "capabilities": [
+          "Research",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/xolarvill/internet-business-skills",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png",
+        "brandColor": "#111827"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/xolarvill/internet-business-skills.git",

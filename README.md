@@ -8,7 +8,7 @@ This repository is a pack of commercial analysis skills designed for Codex and C
 
 ## Installation
 
-### Add as a Codex plugin
+### Add as a plugin by marketplace
 
 This repository is also a Codex plugin. Import it into Codex:
 
@@ -18,10 +18,6 @@ codex plugin add internet-business-skills@internet-business-skills
 ```
 
 Start a new Codex thread after installing so the plugin skills are loaded.
-
-The plugin does not duplicate the skills. It packages the existing
-`skills/find-bad-review`, `skills/analyze-competitor`, `skills/portray-audience`,
-and `skills/verify-idea` directories as one Codex plugin.
 
 ### Add as skills by NPX
 
