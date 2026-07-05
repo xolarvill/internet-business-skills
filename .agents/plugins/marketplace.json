@@ -1,14 +1,14 @@
 {
-  "name": "internet-business-skills",
+  "name": "internet business skills",
   "interface": {
-    "displayName": "Internet Business Research"
+    "displayName": "Internet Business Skills"
   },
   "plugins": [
     {
-      "name": "internet-business-skills",
+      "name": "Internet Business Skills",
       "interface": {
-        "displayName": "Internet Business Research",
-        "shortDescription": "Public-evidence research workflows for internet business decisions.",
+        "displayName": "Internet Business Skills",
+        "shortDescription": "Public-evidence research workflows for internet business decisions",
         "longDescription": "Mine bad reviews, compare competitors, portray likely audiences, and verify commercial ideas with public evidence.",
         "developerName": "xolarvill",
         "category": "Productivity",
