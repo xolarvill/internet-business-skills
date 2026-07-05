@@ -12,6 +12,7 @@ REPORT_TEMPLATE_PATH = VERIFY_ROOT / "assets" / "report-template.md"
 SCRIPT_PATH = VERIFY_ROOT / "scripts" / "render_report_stub.py"
 EVIDENCE_STANDARD_PATH = REPO_ROOT / "references" / "evidence-standard.md"
 OPENAI_AGENT_PATH = VERIFY_ROOT / "agents" / "openai.yaml"
+README_PATH = REPO_ROOT / "README.md"
 
 REQUIRED_DIMENSIONS = [
     "Market existence / why this market exists",
@@ -110,6 +111,18 @@ class VerifyIdeaCommercialViabilityTest(unittest.TestCase):
         self.assertIn("The final answer is incomplete unless", skill)
         self.assertIn("A hero-SKU recommendation without the complete report", skill)
         self.assertNotIn("should usually include", skill)
+
+    def test_product_finding_requests_are_multi_skill_pipeline(self):
+        agent = OPENAI_AGENT_PATH.read_text()
+        skill = SKILL_PATH.read_text()
+        readme = README_PATH.read_text()
+
+        for text in [agent, skill, readme]:
+            self.assertIn("find-bad-review", text)
+            self.assertIn("analyze-competitor", text)
+            self.assertIn("portray-audience", text)
+        self.assertIn("Product Opportunity Workflow", readme)
+        self.assertIn("multi-skill product-opportunity pipeline", skill)
 
 
 if __name__ == "__main__":

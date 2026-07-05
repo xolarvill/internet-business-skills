@@ -1,7 +1,7 @@
 interface:
   display_name: "Verify Idea"
   short_description: "Fact-based commercial idea validation"
-  default_prompt: "Use $verify-idea to validate a business idea with public evidence. The final output must include the full report contract: claim ledger, Commercial Viability Snapshot, coverage summary, source confidence /10, corroboration status, verdict, gaps, and one next step. For product-finding requests, screen candidates first, then run the full report on the final recommended SKU."
+  default_prompt: "Use $verify-idea to validate a business idea with public evidence. The final output must include the full report contract: claim ledger, Commercial Viability Snapshot, coverage summary, source confidence /10, corroboration status, verdict, gaps, and one next step. For product-finding requests, use the pack as a pipeline: find-bad-review for pain/failure patterns, analyze-competitor and portray-audience for facts and buyer fit, then run the full report on the final recommended SKU."
 
 policy:
   allow_implicit_invocation: true

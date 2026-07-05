@@ -72,6 +72,13 @@ loads the new plugin metadata and skill contents.
 
 ## Skills
 
+## Product Opportunity Workflow
+
+For product-finding requests, do not treat `verify-idea` as the only step.
+Use `find-bad-review` to surface pain and failure patterns, then use
+`analyze-competitor` and `portray-audience` for market facts and buyer fit.
+Finish with `verify-idea` on the final candidate using the full report contract.
+
 ### `find-bad-review`
 
 Research representative public negative reviews for a product across channels such as Amazon, Walmart, Reddit, TikTok, forums, and brand or retailer sites.
