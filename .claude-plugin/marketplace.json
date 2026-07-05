@@ -1,12 +1,12 @@
 {
-  "name": "Internet Business Skills",
+  "name": "internet-business-skills",
   "owner": {
     "name": "xolarvill"
   },
-  "description": "Public-evidence research workflows for internet business decisions.",
+  "description": "Public-evidence research workflows for internet business decisions",
   "plugins": [
     {
-      "name": "Internet Business Skills",
+      "name": "internet-business-skills",
       "description": "Mine bad reviews, compare competitors, portray likely audiences, and verify commercial ideas with public evidence.",
       "version": "0.1.0",
       "author": {

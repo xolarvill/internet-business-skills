@@ -1,11 +1,11 @@
 {
-  "name": "internet business skills",
+  "name": "internet-business-skills",
   "interface": {
     "displayName": "Internet Business Skills"
   },
   "plugins": [
     {
-      "name": "Internet Business Skills",
+      "name": "internet-business-skills",
       "interface": {
         "displayName": "Internet Business Skills",
         "shortDescription": "Public-evidence research workflows for internet business decisions",
