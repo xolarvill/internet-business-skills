@@ -4,13 +4,28 @@
 
 Default to a useful public-evidence check, not full diligence. A good verification pass tests the core claims directly and stops once the verdict is defensible.
 
-## Confidence Levels
+## Confidence Scores
 
-Use these levels in the final report:
+Use 10-point confidence scores in the final report. The score measures how reliable the evidence is for the specific claim, not how attractive the business idea feels.
 
-- `high`: multiple strong and current public sources clearly support the claim status
-- `medium`: useful evidence exists, but coverage, freshness, or source quality is limited
-- `low`: evidence is thin, conflicted, stale, or weakly attributable
+- `9-10`: multiple strong, current, independent sources clearly support the claim status
+- `7-8`: good evidence supports the claim, with minor limits in coverage, freshness, or source quality
+- `5-6`: useful but incomplete evidence; the claim is plausible but still under-verified
+- `3-4`: thin, conflicted, stale, weakly attributable, or mostly single-source evidence
+- `1-2`: very weak evidence, heavy caveats, or the claim is mostly unverified
+
+Do not score above `6/10` when the claim depends mainly on one anecdote, one social post, one X rant, or one unverified complaint. A single complaint may identify a risk, but it is not enough to prove frequency, causality, or category-level severity.
+
+## Source Vetting And Corroboration
+
+Before promoting a source into a claim-level judgment, ask:
+
+- could this be user misuse, wrong expectations, seller-specific friction, shipping damage, or an edge case?
+- is the source firsthand and specific, or secondhand and vague?
+- do independent sources show the same pattern?
+- does the source match the target geography, channel, product type, and date range?
+
+Important claims should be cross-checked across independent source types when possible. If corroboration is not available, say so in the report and lower the confidence score.
 
 ## Claim Ledger Discipline
 
@@ -22,6 +37,7 @@ Good claim ledger behavior:
 - each claim is testable
 - each claim has evidence mapped to it
 - each claim ends in one verdict bucket
+- each claim has a `1-10` confidence score
 
 Bad claim ledger behavior:
 
@@ -57,6 +73,7 @@ Never do the following:
 - treat lack of visible competitors as proof of opportunity
 - treat social engagement as proof of profitable demand
 - treat one anecdote as category validation
+- treat a single complaint as proof of product or category failure
 - treat missing evidence as silent support
 
 These are the most common failure modes in idea evaluation.

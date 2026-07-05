@@ -19,7 +19,7 @@ Treat the idea as a commercial system, not just an audience or use-case story. A
 2. Extract 3-7 testable claims.
 3. Choose the validation lenses and required commercial viability dimensions.
 4. Search for current public evidence.
-5. Score each claim and each viability dimension.
+5. Vet and cross-check sources, then score each claim and each viability dimension.
 6. Write the verdict, confidence, and next validation step.
 
 Do not skip claim extraction. Do not jump from raw search results straight to a yes or no answer.
@@ -145,7 +145,9 @@ Capture these fields for each useful source:
 - date if visible and relevant
 - which claim it informs
 - what it supports or weakens
-- evidence quality: `high`, `medium`, or `low`
+- evidence quality score: `1-10`
+- corroboration status: `corroborated`, `partly corroborated`, or `single-source`
+- caveat if the source may reflect misuse, seller-specific friction, shipping damage, stale data, or a non-representative edge case
 
 For source-specific heuristics, load [references/source-adapters.md](references/source-adapters.md).
 

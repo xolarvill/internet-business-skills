@@ -12,6 +12,26 @@ Use the lightest capability that can answer the question reliably. Start with bu
 
 **You must navigate to and read the actual page.** Load the product page, review page, forum thread, or listing directly. WebSearch snippets and search result summaries are not evidence — they are truncated, decontextualized, and frequently misrepresent the actual content.
 
+## Source Vetting
+
+Read every source skeptically. A single complaint, social post, or X rant may reflect misuse, unusual expectations, seller-specific failure, shipping damage, or a bad match with the product rather than a category-level truth.
+
+Before using a source as material evidence, ask:
+
+- Is this firsthand, attributable, and specific?
+- Could the issue be user misuse, wrong expectations, or an edge case?
+- Does another independent source show the same pattern?
+- Is the source current enough for the claim?
+- Is the source primary, or is it repeating someone else's claim?
+
+Single-source anecdotes can illustrate a risk, but they should not drive a verdict unless the report marks them as weak or uncorroborated.
+
+## Corroboration Standard
+
+Cross-check important claims across independent source types whenever possible, such as official pages, marketplace listings, reviews, community threads, ad libraries, policy pages, and competitor pages.
+
+If sources conflict, say so. If a claim depends on one weak source, mark the claim as low-confidence instead of smoothing the uncertainty away.
+
 ## What Counts As Evidence
 
 Evidence comes from pages you have personally loaded and read. Acceptable methods:

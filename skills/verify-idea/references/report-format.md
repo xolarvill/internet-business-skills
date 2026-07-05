@@ -17,9 +17,9 @@ List each testable claim with its verdict.
 Preferred shape:
 
 ```md
-| Claim | Verdict | Confidence | Notes |
+| Claim | Verdict | Confidence / 10 | Notes |
 | --- | --- | --- | --- |
-| There is visible public demand for X | supported | medium | repeated category activity and buyer discussion |
+| There is visible public demand for X | supported | 7 | repeated category activity and buyer discussion |
 ```
 
 ## 3. Commercial Viability Snapshot
@@ -27,7 +27,7 @@ Preferred shape:
 Include every row below. If no public evidence is available, set the readout to `unclear` and say what source would be needed.
 
 ```md
-| Dimension | Readout | Confidence | Evidence or gap |
+| Dimension | Readout | Confidence / 10 | Evidence or gap |
 | --- | --- | --- | --- |
 | Market existence / why this market exists |  |  |  |
 | Buyer motivation / stable need |  |  |  |
@@ -52,7 +52,8 @@ Provide a compact table or bullet list with:
 
 - source type
 - what it informed
-- evidence quality
+- evidence quality / 10
+- corroboration status
 - notes
 
 ## 5. Strongest Supporting Facts
@@ -97,6 +98,8 @@ Then explain:
 State:
 
 - stale or weak sources
+- single-source or uncorroborated claims
+- places where user misuse, shipping damage, seller-specific friction, or edge cases could explain a source
 - unresolved claims
 - claims that depend on private data
 - where public evidence stops being enough

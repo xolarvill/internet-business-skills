@@ -6,6 +6,12 @@ This repository is a pack of commercial analysis skills designed for Codex and C
 - Distinguish evidence collection from business judgment.
 - When a request is too broad, ask one clarification at a time, then proceed.
 
+## Clarification Policy
+
+When a request is too broad, skills ask one focused question with small options.
+This is not a full planning mode: clarify only what materially changes research
+or commercial judgment, then proceed with stated assumptions.
+
 ## Installation
 
 ### Add as a plugin by marketplace
@@ -124,13 +130,13 @@ Best for:
 
 - fact-checking startup or product ideas
 - pressure-testing market-entry theses
-- checking demand, channel, and competition assumptions
+- checking demand, channel, competition, unit-economics, content, operational, and brand assumptions
 - identifying what is supported versus still unclear
 
 Use:
 
 ```text
-$verify-idea Verify the idea of launching a premium retractable dog leash brand on TikTok Shop in the US. Focus on demand, channel fit, competition, and trust burden.
+$verify-idea Verify the idea of launching a premium retractable dog leash brand on TikTok Shop in the US. Focus on demand, channel fit, competition, CAC/LTV, content fit, logistics, compliance, after-sales drag, source confidence, and brand potential.
 ```
 
 ## Best Practice

@@ -10,6 +10,7 @@ LENSES_PATH = VERIFY_ROOT / "references" / "validation-lenses.md"
 REPORT_FORMAT_PATH = VERIFY_ROOT / "references" / "report-format.md"
 REPORT_TEMPLATE_PATH = VERIFY_ROOT / "assets" / "report-template.md"
 SCRIPT_PATH = VERIFY_ROOT / "scripts" / "render_report_stub.py"
+EVIDENCE_STANDARD_PATH = REPO_ROOT / "references" / "evidence-standard.md"
 
 REQUIRED_DIMENSIONS = [
     "Market existence / why this market exists",
@@ -84,6 +85,19 @@ class VerifyIdeaCommercialViabilityTest(unittest.TestCase):
         self.assertIn("## Commercial Viability Snapshot", report)
         for dimension in REQUIRED_DIMENSIONS:
             self.assertIn(dimension, report)
+
+    def test_research_requires_source_vetting_and_numeric_confidence(self):
+        evidence_standard = EVIDENCE_STANDARD_PATH.read_text()
+        research_rules = (VERIFY_ROOT / "references" / "research-rules.md").read_text()
+        report_format = REPORT_FORMAT_PATH.read_text()
+        template = REPORT_TEMPLATE_PATH.read_text()
+
+        self.assertIn("Source Vetting", evidence_standard)
+        self.assertIn("X rant", evidence_standard)
+        self.assertIn("Corroboration Standard", evidence_standard)
+        self.assertIn("Do not score above `6/10`", research_rules)
+        self.assertIn("Confidence / 10", report_format)
+        self.assertIn("Corroboration status", template)
 
 
 if __name__ == "__main__":

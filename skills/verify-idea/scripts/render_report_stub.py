@@ -17,13 +17,13 @@ def build_report(idea: str, lenses: list[str]) -> str:
 
 ## Claim Ledger
 
-| Claim | Verdict | Confidence | Notes |
+| Claim | Verdict | Confidence / 10 | Notes |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
 ## Commercial Viability Snapshot
 
-| Dimension | Readout | Confidence | Evidence or gap |
+| Dimension | Readout | Confidence / 10 | Evidence or gap |
 | --- | --- | --- | --- |
 | Market existence / why this market exists |  |  |  |
 | Buyer motivation / stable need |  |  |  |
@@ -41,9 +41,9 @@ def build_report(idea: str, lenses: list[str]) -> str:
 
 ## Coverage Summary
 
-| Source type | What it informed | Evidence quality | Notes |
-| --- | --- | --- | --- |
-|  |  |  |  |
+| Source type | What it informed | Evidence quality / 10 | Corroboration status | Notes |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
 
 ## Strongest Supporting Facts
 
