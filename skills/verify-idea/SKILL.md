@@ -172,7 +172,7 @@ For confidence and verdict rules, load [references/research-rules.md](references
 
 ## Step 6: Write The Final Verdict
 
-Use the report shape in [references/report-format.md](references/report-format.md). The output should usually include:
+Use the report shape in [references/report-format.md](references/report-format.md). The final answer is incomplete unless it includes every section in that report shape:
 
 - idea statement
 - claim ledger
@@ -183,6 +183,10 @@ Use the report shape in [references/report-format.md](references/report-format.m
 - verdict
 - confidence and gaps
 - suggested next validation step
+
+Do not collapse the report into a narrative recommendation. Do not omit the commercial viability snapshot, even when evidence is thin; use `unclear` and name the missing source instead.
+
+If the user asks to find the best product, SKU, category, or launch idea, first do a lightweight candidate screen, then run the complete report shape on the final recommended candidate. A hero-SKU recommendation without the complete report is not a finished `verify-idea` output.
 
 When useful, generate a starter report skeleton with:
 

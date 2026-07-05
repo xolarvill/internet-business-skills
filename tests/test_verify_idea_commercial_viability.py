@@ -11,6 +11,7 @@ REPORT_FORMAT_PATH = VERIFY_ROOT / "references" / "report-format.md"
 REPORT_TEMPLATE_PATH = VERIFY_ROOT / "assets" / "report-template.md"
 SCRIPT_PATH = VERIFY_ROOT / "scripts" / "render_report_stub.py"
 EVIDENCE_STANDARD_PATH = REPO_ROOT / "references" / "evidence-standard.md"
+OPENAI_AGENT_PATH = VERIFY_ROOT / "agents" / "openai.yaml"
 
 REQUIRED_DIMENSIONS = [
     "Market existence / why this market exists",
@@ -98,6 +99,17 @@ class VerifyIdeaCommercialViabilityTest(unittest.TestCase):
         self.assertIn("Do not score above `6/10`", research_rules)
         self.assertIn("Confidence / 10", report_format)
         self.assertIn("Corroboration status", template)
+
+    def test_entrypoint_and_skill_body_make_report_contract_mandatory(self):
+        agent = OPENAI_AGENT_PATH.read_text()
+        skill = SKILL_PATH.read_text()
+
+        self.assertIn("must include the full report contract", agent)
+        self.assertIn("Commercial Viability Snapshot", agent)
+        self.assertIn("full report on the final recommended SKU", agent)
+        self.assertIn("The final answer is incomplete unless", skill)
+        self.assertIn("A hero-SKU recommendation without the complete report", skill)
+        self.assertNotIn("should usually include", skill)
 
 
 if __name__ == "__main__":
