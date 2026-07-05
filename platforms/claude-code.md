@@ -33,4 +33,6 @@ Guardrails:
 
 ## Platform-Specific Tool Guidance
 
+**Fresh runs:** If Claude Code has no remembered tool inventory for this workspace, quickly check the available direct-internet capabilities before researching: `WebSearch`/`WebFetch`, Playwright/browser tools, installed CLIs such as `gh` when GitHub evidence matters, and configured MCP tools. Choose based on the investigation and target site; do not default to the most resource-heavy option.
+
 **Reading pages:** All research skills in this pack (`find-bad-review`, `verify-idea`, `analyze-competitor`, `portray-audience`) require reading actual page content. Use Playwright (`browser_navigate` + `browser_snapshot`) or `WebFetch` to load target pages directly. Never rely on `WebSearch` snippets alone — search summaries are truncated and often misrepresent content. See `references/evidence-standard.md` for the full evidence philosophy.
