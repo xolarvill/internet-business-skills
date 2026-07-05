@@ -1,6 +1,6 @@
 ---
 name: verify-idea
-description: Verify a commercial idea or business thesis using current public internet evidence from search results, websites, marketplaces, communities, reviews, and other visible market signals. Use when Codex needs to fact-check a startup idea, product concept, market-entry thesis, channel strategy, or demand hypothesis and produce a claim-by-claim verdict with evidence, confidence notes, and explicit unsupported or unclear areas.
+description: Verify a commercial idea or business thesis using current public internet evidence from search results, websites, marketplaces, communities, reviews, and other visible market signals. Use when Codex needs to fact-check a startup idea, product concept, market-entry thesis, channel strategy, demand hypothesis, unit-economics risk, operational drag, content fit, or brand potential and produce a claim-by-claim verdict with evidence, confidence notes, and explicit unsupported or unclear areas.
 ---
 
 # Verify Idea
@@ -11,13 +11,15 @@ Use this skill to evaluate whether a business idea is supported, weakened, or st
 
 The goal is not to give a vague opinion. The goal is to turn an idea into testable commercial claims, search the current internet for evidence, and return a disciplined verdict with explicit `supported`, `contradicted`, or `unclear` outcomes.
 
+Treat the idea as a commercial system, not just an audience or use-case story. A useful verification pass should ask why the market exists, why buyers would choose this product, whether the offer is differentiated, whether acquisition and LTV look plausible, whether content and reviews can compound, whether logistics, compliance, margin, or after-sales drag can break the business, and whether the idea can become a brand.
+
 ## Workflow
 
 1. Restate the idea and the decision context.
 2. Extract 3-7 testable claims.
-3. Choose the validation lenses.
+3. Choose the validation lenses and required commercial viability dimensions.
 4. Search for current public evidence.
-5. Score each claim.
+5. Score each claim and each viability dimension.
 6. Write the verdict, confidence, and next validation step.
 
 Do not skip claim extraction. Do not jump from raw search results straight to a yes or no answer.
@@ -65,11 +67,17 @@ Turn the idea into a small claim ledger. Good claims are falsifiable and externa
 
 Common claim types:
 
+- the market exists for a stable reason, not only a temporary product fad
 - demand exists
+- buyers have a clear reason to choose the product over substitutes
 - the audience is reachable through the chosen channel
 - competitors do not already saturate the position
 - the value proposition is differentiated enough to matter
 - the price or trust burden is viable
+- CAC proxy and reasonable LTV logic are not obviously broken
+- content, SEO, photography, UGC, review, or AI discoverability can compound
+- logistics, margin, compliance, or after-sales drag are manageable
+- the idea has some route to brand memory or category expansion
 - obvious regulatory or platform constraints are manageable
 
 Load [references/validation-lenses.md](references/validation-lenses.md) for lens definitions and claim examples.
@@ -88,17 +96,27 @@ Good claim shapes:
 
 ## Step 3: Choose Validation Lenses
 
-Pick only the lenses needed to test the idea. Common lenses include:
+Pick the lenses needed to test the idea. Every report must include a compact commercial viability snapshot covering the baseline dimensions below. If public evidence is unavailable for a dimension, mark it `unclear` and explain the evidence gap; do not omit the dimension.
 
+Baseline dimensions:
+
+- market existence and need stability
+- buyer motivation
 - demand signal
 - audience fit
 - competitor pressure
+- differentiation
 - channel reality
+- acquisition economics and CAC proxy
+- LTV or repeat-purchase plausibility
+- content and discoverability fit
 - trust and proof burden
 - regulatory or policy friction
-- operational plausibility when visible in public signals
+- logistics, margin, and operational plausibility when visible in public signals
+- after-sales or support complexity
+- brand compounding potential
 
-The point is not to do a full market study. The point is to pressure-test the core claims.
+The point is not to do a full market study. The point is to pressure-test the core claims while preserving enough commercial coverage that the answer does not over-index on scene, persona, or generic demand.
 
 ## Step 4: Search Current Public Evidence
 
@@ -111,11 +129,13 @@ Good public evidence sources include:
 - official company and product pages
 - marketplaces
 - retailer pages
+- search-result and SEO surfaces when discoverability matters
 - app stores or product directories
 - Reddit and community discussions
 - Meta ad Library and similar ad transparency tools
 - public social content
 - public pricing pages
+- FAQs, warranty, returns, support, and shipping pages
 - current news or policy pages when constraints matter
 
 Capture these fields for each useful source:
@@ -154,6 +174,7 @@ Use the report shape in [references/report-format.md](references/report-format.m
 
 - idea statement
 - claim ledger
+- commercial viability snapshot
 - coverage summary
 - strongest supporting facts
 - strongest weakening facts
@@ -164,7 +185,7 @@ Use the report shape in [references/report-format.md](references/report-format.m
 When useful, generate a starter report skeleton with:
 
 ```bash
-python3 scripts/render_report_stub.py --idea "Launch a premium retractable dog leash brand on TikTok Shop in the US" --lenses demand channel competition trust
+python3 scripts/render_report_stub.py --idea "Launch a premium retractable dog leash brand on TikTok Shop in the US" --lenses demand differentiation acquisition economics content operations brand
 ```
 
 ## Output Standard
@@ -174,7 +195,7 @@ The final output should answer questions like:
 - Which parts of the idea are currently supported by public evidence?
 - Which parts are actively weakened by public evidence?
 - Which parts remain unresolved without private or primary research?
-- Is the main issue demand, differentiation, channel fit, trust burden, or feasibility?
+- Is the main issue demand, buyer motivation, differentiation, CAC/LTV, content fit, logistics, compliance, after-sales drag, brand potential, or feasibility?
 
 Good verdict shapes:
 

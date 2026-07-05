@@ -17,6 +17,24 @@
 | Premium trust-led positioning is under-occupied | contradicted | medium | established brands and proof-heavy incumbents already compete on trust |
 | Convenience-led messaging will be enough by itself | contradicted | high | public objections around control and safety weaken convenience-only framing |
 
+## Commercial Viability Snapshot
+
+| Dimension | Readout | Confidence | Evidence or gap |
+| --- | --- | --- | --- |
+| Market existence / why this market exists | supported | medium | leashes solve a stable control and walking need, not only a novelty purchase |
+| Buyer motivation / stable need | supported | medium | convenience and walking control are visible motivations |
+| Differentiation | weakened | medium | premium trust-led positioning is already occupied by stronger proof-heavy competitors |
+| CAC proxy / acquisition pressure | unclear | low | TikTok Shop and ad-pressure evidence would need a fresh live pass |
+| LTV / repeat or retention logic | weakened | low | leashes are not obviously high-frequency repeat products without accessories or replacement logic |
+| Content and SEO fit | unclear | low | social demo potential exists, but SEO and content competition were not tested in this sample |
+| Photo, video, UGC, and review fit | supported | medium | the product is visually demonstrable and review-led trust matters |
+| AI readability / citation / support fit | unclear | low | would require checking brand pages, FAQs, specs, and third-party references |
+| Logistics and fulfillment risk | unclear | low | public sample did not verify weight, packaging, supplier, or return economics |
+| Compliance and platform-policy risk | weakened | medium | safety/control concerns raise platform and claim-handling caution |
+| Margin / unit-economics plausibility | unclear | low | exact margin needs supplier quotes, fees, returns, and freight data |
+| After-sales and support complexity | weakened | medium | mechanism failure and safety complaints imply refund, replacement, and support drag |
+| Brand compounding potential | unclear | low | possible only if reliability/control proof becomes a durable brand asset |
+
 ## Coverage Summary
 
 | Source type | What it informed | Evidence quality | Notes |

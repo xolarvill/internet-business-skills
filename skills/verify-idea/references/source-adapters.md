@@ -16,6 +16,12 @@ Use this file when deciding how to gather current public evidence for idea verif
 - Helpful for checking whether the proposed offer shape already exists in quantity.
 - Separate product demand from marketplace SEO clutter.
 
+## Search And SEO Surfaces
+
+- Use for search-friendly questions, commercial query competition, informational content gaps, and whether incumbents dominate the topic.
+- Treat rankings as volatile snapshots, not durable proof of easy acquisition.
+- Separate real buyer questions from keyword-stuffed affiliate pages.
+
 ## Reddit And Community Threads
 
 - Use for pain-point language, buyer skepticism, and recurring use cases.
@@ -28,6 +34,12 @@ Use this file when deciding how to gather current public evidence for idea verif
 - Do not treat viral attention as proof of viable business economics.
 - Distinguish entertainment from buying behavior when possible.
 
+## Ad Libraries And Sponsored Surfaces
+
+- Use for visible advertiser density, repeated creative angles, and signs that competitors are paying to acquire customers.
+- Useful as a CAC pressure proxy, not as exact CAC evidence.
+- Do not infer profitability from ad presence alone.
+
 ## Pricing Pages, App Stores, And Directories
 
 - Useful for SaaS, tools, and subscription ideas.
@@ -39,6 +51,12 @@ Use this file when deciding how to gather current public evidence for idea verif
 - Use when compliance, platform rules, or regulation could weaken the idea.
 - Prioritize official documents over commentary when available.
 - Freshness matters; include dates.
+
+## Support, Shipping, Warranty, And FAQ Pages
+
+- Use for fulfillment friction, after-sales burden, sizing or compatibility issues, and trust proof.
+- Returns and warranty terms can indicate whether the category carries breakage, fit, support, or confidence problems.
+- Treat brand promises as claims, not proof, unless reviews or third-party sources support them.
 
 ## Unknown Or Weak Sources
 
